@@ -52,6 +52,10 @@ return [
         'mailgun' => [
             'transport' => 'mailgun',
         ],
+        'mailjet' => [
+            'transport' => 'mailjet',
+        ],
+        
 
         'postmark' => [
             'transport' => 'postmark',

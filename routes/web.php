@@ -29,3 +29,4 @@ Route::get('/logout', [ftlegacyportalAuthController::class,'logout']);
 Route::get('/forgot', [ftlegacyportalAuthController::class, 'showForgotForm'])->name('forgot.password.form');
 Route::post('/forgot', [ftlegacyportalAuthController::class, 'sendResetLink'])->name('forgot.password.link');
 Route::get('/reset/{token}', [ftlegacyportalAuthController::class,'showResetForm'])->name('reset.password.form');
+Route::post('/reset', [ftlegacyportalAuthController::class,'resetPassword'])->name('reset.password');

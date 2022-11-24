@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*============== Login ======================*/
+.login {
+    height: 100vh;
+    background: rgb(189, 189, 189);
+    position: relative;
+}
+
+.login-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.ftlegacy-logo {
+    display: absolute!important;
+    top: 200px!important;
+    left: 200px!important;
+    color: #fff;
+}
+
+.termANDcondition{
+    display: absolute;
+    bottom: 8%;
+    left: 10%;
+    color: #fff;
+}
+
+/*============== Login ======================*/
+
